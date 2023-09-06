@@ -4,70 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css"/>
 </head>
 <body>
     <main>
         <header>
             <img src="./imagenes/logo.svg" alt="logo"/>
             <nav>
-                <li>Sports</li>
-                <li>Products</li>
-                <li>About Us</li>
-                <li>Training</li>
-                <li>Comunity</li>
+                <ul type="none">
+                    <li>Sports</li>
+                    <li>Products</li>
+                    <li>About Us</li>
+                    <li>Training</li>
+                    <li>Comunity</li>
+                </ul>
             </nav>
-            <button>Contact</button>
+            <button class="btnMorado">Contact</button>
         </header> 
-        <section>
-            <img src="./imagenes/padel-intro.png"/>
-            <div>
+        <section class="layoutIntro">
+            <img src="./imagenes/padel-intro.png" class="padel-intro"/>
+            <div class="divIntroduccion">
                 <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</h1>
                 <h3>The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</h3>
+                <button class="btnMorado-sinSombra">Contact</button>
             </div>
-            <button>Contact</button>
         </section>
-        <section>
-            <h2>Whats different between pros?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.</p>
+        <section class="divMorado1">
+            <div>
+                <h2>Whats different between pros?</h2>
+            </div>
+            <div>
+                <p class="textoDivMorado1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.</p>
+            </div>
         </section>
-        <section>
-            <article>
-                <div>
-                    <img src="./imagenes/button.png" alt="btn1"/>
-                    <h3>Track company-wide progress</h3>
-                    <p></p>
+        <section class="divCaracteristicas">
+            <article class="articuloDoble">
+                <article class="articuloSimple">
+                    <div class="contenedorBtn">
+                        <button class="btnMorado-sinSombra-num">03</button>
+                    </div>
+                    <div class="contenedorTextos">
+                        <span>Everything you need in one place</span>
+                        <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+                    </div>
+                </article>
+                <article class="articuloSimple">
+                    <div class="contenedorBtn">
+                        <button class="btnMorado-sinSombra-num">03</button>
+                    </div>
+                    <div class="contenedorTextos">
+                        <span>Everything you need in one place</span>
+                        <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+                    </div>
+                </article>
+            </article>
+            <article class="articuloSimple">
+                <div class="contenedorBtn">
+                    <button class="btnMorado-sinSombra-num">03</button>
                 </div>
-                <div>
-                    <img src="./imagenes/Button (1).png" alt="btn2"/>
-                    <h3>Track company-wide progress</h3>
-                    <p></p>
+                <div class="contenedorTextos">
+                    <span>Everything you need in one place</span>
+                    <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
                 </div>
             </article>
-            <article>
-                <img src="./imagenes/Button (2).png" alt="btn3"/>
-                <h3>Advance built-in reports</h3>
-                <p></p>
-            </article>
         </section>
-        <section>
+        <section class="botmDiv">
             <h2>Best of the month</h2>
-            <article>
-                <img />
-                <h3>Sanyo</h3>
-                <p></p>
-            </article>
-            <article>
-                <img />
-                <h3>Lebron</h3>
-                <p></p>
-            </article>
-            <article>
-                <img />
-                <h3>Navarro</h3>
-                <p></p>
-            </article>
-            <button>More</button>
+            <div class="divsJugdores">
+                <article class="divJugador">
+                    <div class="imgNombreDiv">
+                        <img src="./imagenes/avatar-sanyo.png" alt="sanyo"/>
+                        <h4>Sanyo</h4>
+                    </div>
+                    <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </article>
+                <article class="divJugador">
+                    <div class="imgNombreDiv">
+                        <img src="./imagenes/avatar.lebron.png" alt="lebron"/>
+                        <h4>Lebron</h4>
+                    </div>
+                    <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </article>
+                <article class="divJugador">
+                    <div class="imgNombreDiv">
+                        <img src="./imagenes/avatar-navarro.png" alt="navarro"/>
+                        <h4>Navarro</h4>
+                    </div>
+                    <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </article>
+            </div>
+            <button class="btnMorado-sinSombra">More</button>
         </section>
+        <section class="layoutDivMorado2">
+            <div class="divModaro2">
+                <div class="layoutTitulo">
+                    <h1>Get to know the best teams of the year</h1>
+                </div>
+                <button class="btnMoradoSombraBlanco">Go for it</button>
+            </div>
+        </section>
+        <footer>
+            <section class="layoutFooter">
+                <div class="layoutLogos">
+                    <img src="./imagenes/logo-blanco.png" alt="logo-blanco"/>
+                    <div>
+                        <img src="./imagenes/icon-facebook.svg" alt="logo-Facebook"/>
+                        <img src="./imagenes/icon-youtube.svg" alt="logo-youtube"/>
+                        <img src="./imagenes/icon-twitter.svg" alt="logo-twitter"/>
+                        <img src="./imagenes/icon-pinterest.svg" alt="logo-pinterest"/>
+                        <img src="./imagenes/icon-instagram.svg" alt="logo-instagram"/>
+                    </div>
+                </div>
+                <ul class="menuFooter1">
+                    <li>Home</li>
+                    <li>Pricing</li>
+                    <li>Products</li>
+                    <li>About Us</li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>Training</li>
+                    <li>Community</li>
+                    <li>Privacy Policy</li>
+                </ul>
+                <div>
+                    <input type="text">
+                    <button>Go</button>
+                </div>
+                <p>Copyright 2020,  All Rights Reserved</p>
+            </section>
+        </footer>
     </main>
 </body>
 </html>
